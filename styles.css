@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body, html {
+    height: 100%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: black;
+}
+#navbar li{
+    list-style: none;
+    padding: 20px 20px;
+    position: relative;
+    color: white;
+    margin-right: 15px;
+}
+#navbar li:hover{
+    cursor: pointer;
+    
+}
+#navbar a:link {
+    text-decoration: none;
+}
+  
+#navbar a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+  
+#navbar a {
+    color:#fff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+  
+#navbar a:hover {
+    color: #ffffff;
+    text-shadow:0px 0px 30px #000000;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+#hero-image {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.712)), url("um.png");
+    height: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+#hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    color: white;
+}
+#hero-text p{
+    font-size: 50px;
+}
+#hero-text h1{
+    font-size: 4rem;
+}
