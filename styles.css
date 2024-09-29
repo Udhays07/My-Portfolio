@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"Inria sans", sans-serif;
+    background-color: black;
+    -webkit-text-fill-color: white;
 }
 body, html {
     height: 100%;
@@ -11,10 +14,11 @@ body, html {
     align-items: center;
     justify-content: right;
     background-color: black;
+    box-shadow: #fff;
 }
 #navbar li{
     list-style: none;
-    padding: 20px 20px;
+    padding: 30px 30px;
     position: relative;
     color: white;
     margin-right: 15px;
@@ -48,6 +52,12 @@ body, html {
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
+
+nav ul li a:hover   
+ {
+  background-color: #f0f0f0;
+}
+
 #hero-image {
     background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.712)), url("um.png");
     height: 95%;
@@ -62,11 +72,124 @@ body, html {
     position: absolute;
     top: 50%;
     right: 7%;
-    color: white;
+    color: rgb(255, 255, 255);
+    mix-blend-mode:difference;
+    opacity: 75%;
 }
+
 #hero-text p{
     font-size: 50px;
 }
+
 #hero-text h1{
     font-size: 4rem;
+    -webkit-text-fill-color: #39FF14;
+}
+
+.About {
+    -webkit-text-fill-color: white;
+    height: 75%;
+    margin-left: 100px;
+    align-content: center;
+}
+
+.abt {
+    margin-top: 10%;
+    font-size: 60px;
+}
+
+.txt{
+    margin-top: 15px;
+    margin-right: 50%;
+    font-size: 20px;
+}
+
+.img {
+    height: auto;
+    width: 30%;
+}
+
+#skill {
+    -webkit-text-fill-color: white;
+    height: 75%;
+    align-content: center;
+    margin-left: 100px;
+}
+
+#skill h1{
+    font-size: 60px;
+    align-content: space-around;
+}
+#skill-container {
+    display: flex;
+    line-height: 30px;
+}
+
+#category{
+    margin:20px;
+}
+
+#project{
+    height: 75%;
+    align-content: centre;
+    margin-left: 100px;
+}
+
+#project h1{
+    font-size: 60px;
+}
+
+#projects-container{
+    display: flex;
+    align-content: space-around;
+}
+
+#project-ind {
+    margin: 20px;
+    text-align: justify;
+}
+
+#projects-container h2{
+    text-align: center;
+}
+
+#project-ind {
+    margin: 20px;
+    text-align: justify;
+}
+
+#project p{
+    margin-top: 15px;
+}
+
+#profiles {
+    height: 75%;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#profiles h1{
+    font-size: 60px;
+}
+
+#profiles-container{
+    display: flex;
+}
+
+#prof{
+    margin: 20px;
+}
+
+#prof a{
+    text-decoration: none;
+}
+
+#prof a:hover{
+    cursor: pointer;
+    -webkit-text-fill-color: #39FF14;
+}
+
+#prof img{
+    height: 40px;
+    width: 40px;
 }
