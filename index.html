@@ -5,48 +5,72 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div>
+        <div id="nav">
             <ul id="navbar">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Profiles</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div id="hero-image">
             <div id="hero-text">
               <p>Hello! I am</p>
               <h1>Udhaya Moorthy</h1>
+              <button>Get in Touch</button>
             </div>
         </div>
-        <div class="About">
+        <div id="about" class="About">
             <h1 class="abt">About Myself</h1>
-            <p class="txt">Hello👋, As an aspiring engineering student, I am eager to apply and improve my programming skills and problem-solving abilities in collaborative environments. I seek opportunities to contribute to innovative projects that promote continuous learning and professional development.</p>
-            <img class="img">
+            <div id="Abt">
+                <p class="txt">Hello👋, As an aspiring engineering student, I am eager to apply and improve my programming skills and problem-solving abilities in collaborative environments. I seek opportunities to contribute to innovative projects that promote continuous learning and professional development.<br><a href="https://drive.google.com/file/d/1x5zAvBs7oxYHOzGUbU_liBE0RA0zVYir/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>My Resume</button></a></p>
+                <img class="img" src="um3.jpg" alt="Profile Image">
+            </div>
         </div>
         <div id="skill">
             <h1>Skills</h1>
             <div id="skill-container">
-                <div id="category">
-                <h2>Front-End</h2>
-                    <li>HTML, CSS</li>
-                    <li>Javascript</li>
+                <div class="category">
+                    <h2>Front-End</h2>
+                    <ul>
+                        <li>HTML, CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
                 </div>
-                <div id="category">
-                <h2>Programming Languages</h2>
-                    <li>C, C++</li>
-                    <li>Python</li>
-                    <li>Java</li>
+                <div class="category">
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li>C, C++</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
                 </div>
-                <div id="category">
-                <h2>Tools</h2>
-                    <li>VS Code</li>
-                    <li>Figma</li>
-                    <li>Canva</li>
-                    <li>Adobe Photoshop</li>
+                <div class="category">
+                    <h2>Tools</h2>
+                    <ul>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
                 </div>
+            </div>
+        </div>
+        <div id="education">
+            <h1>Education</h1>
+            <div class="container">
+                    <h2>SSLC</h2>
+                    <p>Completed my SSLC at Sai Vidhyalaya CBSE with 88.8%</p>
+            </div>
+            <div class="container">
+                    <h2>HSLC</h2>
+                    <p>Completed my HSLC at Sai Vidhyalaya CBSE with 65.8%</p>                
+            </div>
+            <div class="container">
+                    <h2>College</h2>
+                    <p>Pursuing Bachelor's Degree in Agricultural Engineering at Bannari Amman  Institute of Technology with 7.81 CGPA (Till 4th Sem)</p>
             </div>
         </div>
         <div id="project">
@@ -54,15 +78,18 @@
             <div id="projects-container">
                 <div id="project-ind">
                     <h2>Tamil PoS Tagger</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi tenetur ipsam laboriosam velit eos deserunt nobis eligendi consectetur, odit consequuntur laborum quasi. Repudiandae, reiciendis unde? Itaque suscipit tenetur dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://github.com/Udhays07/PoS-Tagger---Tamil"  target="_blank" rel="noopener noreferrer"><button>Github</button></a>
                 </div>
                 <div id="project-ind">
                     <h2>Tamil Palm Leaf Manuscript Reader</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in tempore eius vel! Sequi perferendis blanditiis cupiditate dolorem temporibus exercitationem, eaque repellendus error dolor natus vero quasi ab minus molestias?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href=""  target="_blank" rel="noopener noreferrer"><button>Github</button></a>
                 </div>
                 <div id="project-ind">
                     <h2>Agri Master - Chatbot</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, dolorum repellat blanditiis unde ut, consequatur excepturi eos eaque exercitationem maiores quasi voluptatum totam. Laudantium quia quod ullam excepturi nisi quam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <a href="https://github.com/Udhays07/Agri-Master"  target="_blank" rel="noopener noreferrer"><button>Github</button></a>
                 </div>
             </div>
         </div>
@@ -70,17 +97,43 @@
             <h1>Profiles</h1>
             <div id="profiles-container">
                 <div id="prof">
-                    <h2><img src="leetcode.svg"><a href="https://leetcode.com/u/udhays07/">Leetcode</h2>
+                    <h2><img src="leetcode.svg" alt="Leetcode"><a href="https://leetcode.com/u/udhays07/" target="_blank" rel="noopener noreferrer">Leetcode</a></h2>
                 </div>
                 <div id="prof">
-                    <h2><img src="codechef.svg"><a href="https://www.codechef.com/users/udhayamoorthys">Codechef</h2>
+                    <h2><img src="codechef.svg" alt="Codechef"><a href="https://www.codechef.com/users/udhayamoorthys" target="_blank" rel="noopener noreferrer">Codechef</a></h2>
                 </div>
                 <div id="prof">
-                    <h2><img src="hackerrank.svg"><a href="https://www.hackerrank.com/profile/udhayamoorthysj">Hackerrank</h2>
+                    <h2><img src="hackerrank.svg" alt="Hackerrank"><a href="https://www.hackerrank.com/profile/udhayamoorthysj" target="_blank" rel="noopener noreferrer">Hackerrank</a></h2>
                 </div>
                 <div id="prof">
-                    <h2><img src="geeksforgeeks.svg"><a href="https://www.geeksforgeeks.org/user/udhayamo0bpi/?ref=header_profile">GeeksforGeeks</h2>
+                    <h2><img src="geeksforgeeks.svg" alt="GeeksforGeeks"><a href="https://www.geeksforgeeks.org/user/udhayamo0bpi/?ref=header_profile" target="_blank" rel="noopener noreferrer">GeeksforGeeks</a></h2>
                 </div>
             </div>
         </div>
+        <div id="contact">
+            <h1>Contact Me</h1>
+            <div id="contact-container">
+                <div class="contact-item">
+                    <img src="email.svg" alt="Email Icon">
+                    <a href="mailto:udhayamoorthysj@gmail.com">udhayamoorthysj@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <img src="instagram.svg" alt="Instagram Icon">
+                    <a href="https://www.instagram.com/udhay_.__/" target="_blank">Instagram</a>
+                </div>
+                <div class="contact-item">
+                    <img src="phone.svg" alt="Phone Icon">
+                    <span>+91 8610323391</span>
+                </div>
+                <div class="contact-item">
+                    <img src="github.svg" alt="GitHub Icon">
+                    <a href="https://github.com/Udhays07" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>&copy; 2024 Udhaya Moorthy. All rights reserved.</p>
+            </div>
+        </div>
+        <script src="scripts.js"></script>    
     </body>
+</html>
